@@ -1,7 +1,6 @@
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/lab2.dir
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/package.dir
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/package_source.dir
-Y:/Programming/c-_lab2/build/lab2/CMakeFiles/test.dir
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/edit_cache.dir
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/rebuild_cache.dir
 Y:/Programming/c-_lab2/build/lab2/CMakeFiles/list_install_components.dir

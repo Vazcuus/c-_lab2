@@ -5,6 +5,7 @@ set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 project(lab2 VERSION ${PROJECT_VERSION})
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
+configure_file(version.h.in version.h)
 
 add_executable(lab2 lab2.cpp)
 
@@ -22,6 +23,7 @@ set_target_properties(lab2 PROPERTIES
 )
 
 install(TARGETS lab2 RUNTIME DESTINATION bin)
+
 if (APPLE)
     set(CPACK_GENERATOR ZIP)
 else()
@@ -33,5 +35,3 @@ set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
 set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
 
 include(CPack)
-
-enable_testing()
