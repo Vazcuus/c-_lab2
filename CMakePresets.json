@@ -5,7 +5,7 @@
             "name": "lab2",
             "displayName": "GCC 14.1.0 x86_64-w64-mingw32 (mingw64)",
             "description": "Using compilers: C = C:\\msys64\\mingw64\\bin\\gcc.exe, CXX = C:\\msys64\\mingw64\\bin\\g++.exe",
-            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "binaryDir": "${sourceDir}/build/${presetName}",
             "cacheVariables": {
                 "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
                 "CMAKE_C_COMPILER": "C:/msys64/mingw64/bin/gcc.exe",
