@@ -63,7 +63,7 @@ auto LexiSort = [](auto a, auto b)
 
 auto PrintAll = [](std::vector<std::vector<int>> ip_address)
 {
-    for (auto i = 0; i < ip_address.size(); i++)
+    for (size_t i = 0; i < ip_address.size(); i++)
     {
         for (auto j = 0; j < 4; j++)
         {
@@ -76,9 +76,9 @@ auto PrintAll = [](std::vector<std::vector<int>> ip_address)
 
 auto PrintByteOne = [](std::vector<std::vector<int>> ip_address)
 {
-    for (auto i = 0; i < ip_address.size(); i++)
+    for (size_t i = 0; i < ip_address.size(); i++)
     {
-        for (auto j = 0; j < 4; j++)
+        for (size_t j = 0; j < 4; j++)
         {
             if (ip_address[i][0] == 1)
             {
@@ -94,9 +94,9 @@ auto PrintByteOne = [](std::vector<std::vector<int>> ip_address)
 
 auto Print46and70 = [](std::vector<std::vector<int>> ip_address)
 {
-    for (auto i = 0; i < ip_address.size(); i++)
+    for (size_t i = 0; i < ip_address.size(); i++)
     {
-        for (auto j = 0; j < 4; j++)
+        for (size_t j = 0; j < 4; j++)
         {
             if (ip_address[i][0] == 46 && ip_address[i][1] == 70)
             {
@@ -111,9 +111,9 @@ auto Print46and70 = [](std::vector<std::vector<int>> ip_address)
 
 auto Print46 = [](std::vector<std::vector<int>> ip_address)
 {
-    for (auto i = 0; i < ip_address.size(); i++)
+    for (size_t i = 0; i < ip_address.size(); i++)
     {
-        for (auto j = 0; j < 4; j++)
+        for (size_t j = 0; j < 4; j++)
         {
             if ( std::find(ip_address[i].begin(), ip_address[i].end(), 46) != ip_address[i].end() )
             {
