@@ -1,13 +1,11 @@
 cmake_minimum_required(VERSION 3.12)
-set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
-set(PROJECT_VESRION 0.0.${PATCH_VERSION})
-
-project(lab2 VERSION ${PROJECT_VERSION})
+project(lab2 VERSION 1.0.0 LANGUAGES C)
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 configure_file(version.h.in version.h)
 
 add_executable(lab2 lab2.cpp)
+set(CPAKE_PAKAGE_VERSION "1.0.0")
 
 set_target_properties(lab2 PROPERTIES
     CXX_STANDARD 14
