@@ -8,9 +8,9 @@ BOOST_AUTO_TEST_SUITE(test_version)
 
 BOOST_AUTO_TEST_CASE(test_valid_version)
 {
-    BOOST_CHECK(LexiSort(19, 12) > 0);
+    BOOST_CHECK(LexiSort(12, 9) > 0);
     BOOST_CHECK(LexiSort(20, 23) > 0);
-    BOOST_CHECK(LexiSort(55, 52) > 0);
+    BOOST_CHECK(LexiSort(52, 55) > 0);
 }
 
 BOOST_AUTO_TEST_SUITE_END()
